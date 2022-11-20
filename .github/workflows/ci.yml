@@ -36,7 +36,7 @@ jobs:
         run: "yarn test:ci"
       - name: "Build Code"
         run: "yarn build"
-      - if: ${{ github.event_name == 'push' }}
+      - if: ${{ github.event_name == 'push' && env.IS_PACKAGE == 'true' }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
