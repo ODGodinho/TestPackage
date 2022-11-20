@@ -6,7 +6,7 @@
         />
     </a>
     <br />
-    Stanley The Template For Typescript By Dragons Gamers
+    Stanley The Template For Typescript By Dragons Gamers.
     <br />
 </h1>
 
