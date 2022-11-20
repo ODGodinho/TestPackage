@@ -20,7 +20,7 @@ jobs:
       - uses: "actions/setup-node@v3"
         with:
             node-version: ${{ matrix.version }}
-            registry-url: 'https://registry.npmjs.org'
+            registry-url: 'https://npm.pkg.github.com/'
             cache: "yarn"
       - name: "Yarn Install"
         run: "yarn"
