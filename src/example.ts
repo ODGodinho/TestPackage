@@ -1,3 +1,3 @@
 export function exampleStanleyTemplate(): string {
-    return "Stanley The Template";
+    return "Stanley The Template Teste";
 }
