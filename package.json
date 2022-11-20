@@ -4,6 +4,7 @@
     "description": "Stanley TheTemplate for typescript project",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "private": false,
     "scripts": {
         "build": "tsc --project ./tsconfig.build.json",
         "build:watch": "tsc --project ./tsconfig.build.json -w",
