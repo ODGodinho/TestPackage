@@ -36,5 +36,5 @@ jobs:
         run: "yarn test:ci"
       - name: "Build Code"
         run: "yarn build"
-      - if: ${{ github.event_name == 'push' && env.IS_PACKAGE == true }}
+      - if: ${{ github.event_name == 'push' }}
         run: "yarn semantic-release"
