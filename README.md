@@ -10,7 +10,7 @@
     <br />
 </h1>
 
-<h4 align="center">Template Stanley for Typescript projects and packages 📦</h4>
+<h4 align="center">Template Stanley for Typescript 📦</h4>
 
 <p align="center">
 
